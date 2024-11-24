@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #2575fc;
+  font-size: 1.5rem;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+/* Job and Degree Entries */
+.job h3,
+.degree h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.job p,
+.degree p {
+  margin: 5px 0 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px 20px;
+  background: #f4f4f9;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer p {
+  margin: 0;
+}
